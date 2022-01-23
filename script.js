@@ -4,7 +4,7 @@
 let section = document.querySelector('section');
 let text = document.querySelector('.text');
 let innerText = document.querySelector('.innerText');
-let loremtext = document.getElementById("loremtext");
+// let loremtext = document.getElementById("loremtext");
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
@@ -13,4 +13,4 @@ window.addEventListener('scroll', function() {
     innerText.style.left = 100 - value / 5 + `%`;
 })
 
-loremtext.scrollIntoView();
+// loremtext.scrollIntoView();
