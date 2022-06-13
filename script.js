@@ -12,5 +12,3 @@ window.addEventListener('scroll', function() {
     text.style.left = 100 - value / 5 + `%`;
     innerText.style.left = 100 - value / 5 + `%`;
 })
-
-loremtext.scrollIntoView();
