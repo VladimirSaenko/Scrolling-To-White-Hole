@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #e7e7eb;
+    background: #000000;
 }
 
 h3 {
@@ -17,7 +17,7 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: -120px;
-    color: #000000;
+    color: white;
     font-size: 10em;
 }
 
